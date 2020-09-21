@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 100%;
+    background-color: teal;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+a{
+    margin-top: 10px;
+    color: #fff;
+}
+.nextGif{
+    margin-top: 20px;
+    background-color:cadetblue;
+    color: snow;
+    border-radius: 10px;
+    border:solid 1px snow;
+    width: 500px;
+    height: 50px;
+}
+form{
+    margin-top: 20px;
+}
+#search-btn{
+    margin-top: 10px;
+    height: 20px;
+    width: 200px;
+}
